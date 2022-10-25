@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp"
+    app:cardElevation="10dp">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <RelativeLayout
+           android:id="@+id/rl1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="10dp"
+           android:layout_marginTop="10dp"
+           android:layout_marginEnd="10dp"
+           android:layout_marginBottom="10dp">
+
+           <TextView
+               android:id="@+id/name"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="10dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginEnd="10dp"
+               android:layout_marginBottom="10dp"
+               android:fontFamily="@font/alegreya"
+               android:text="Truck Name"
+               android:textColor="@color/black"
+               android:textSize="16sp"
+               android:textStyle="bold" />
+
+           <TextView
+               android:id="@+id/type"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/name"
+               android:layout_marginStart="10dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginEnd="10dp"
+               android:layout_marginBottom="10dp"
+               android:fontFamily="@font/alegreya"
+               android:text="Waste type"
+               android:textColor="@color/black"
+               android:textSize="16sp"
+               android:textStyle="bold" />
+
+           <TextView
+               android:id="@+id/collection_point"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/type"
+               android:layout_marginStart="10dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginEnd="10dp"
+               android:layout_marginBottom="10dp"
+               android:fontFamily="@font/alegreya"
+               android:text="Collection Point"
+               android:textColor="@color/black"
+               android:textSize="16sp"
+               android:textStyle="bold" />
+
+           <TextView
+               android:id="@+id/dayt"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/collection_point"
+               android:layout_marginStart="10dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginEnd="10dp"
+               android:layout_marginBottom="10dp"
+               android:fontFamily="@font/alegreya"
+               android:text="Day of the week"
+               android:textColor="@color/black"
+               android:textSize="16sp"
+               android:textStyle="bold" />
+
+           <TextView
+               android:id="@+id/date"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/dayt"
+               android:layout_marginStart="10dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginEnd="10dp"
+               android:layout_marginBottom="10dp"
+               android:fontFamily="@font/alegreya"
+               android:text="Date Available"
+               android:textColor="@color/black"
+               android:textSize="16sp"
+               android:textStyle="bold" />
+
+           <TextView
+               android:id="@+id/status"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/date"
+               android:layout_centerInParent="true"
+               android:layout_margin="10dp"
+               android:fontFamily="@font/alegreya"
+               android:text="Status"
+               android:textColor="@color/golden_brown"
+               android:textSize="16sp"
+               android:textStyle="bold" />
+       </RelativeLayout>
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_toRightOf="@id/rl1"
+                     android:layout_margin="10dp">
+
+           <TextView
+               android:id="@+id/txtname"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="10dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginEnd="10dp"
+               android:layout_marginBottom="10dp"
+               android:fontFamily="@font/alegreya"
+               android:text="Truck Name"
+               android:textColor="@color/black"
+               android:textSize="16sp"
+               android:textStyle="bold" />
+
+           <TextView
+               android:id="@+id/txttype"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/txtname"
+               android:layout_marginStart="10dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginEnd="10dp"
+               android:layout_marginBottom="10dp"
+               android:fontFamily="@font/alegreya"
+               android:text="Waste type"
+               android:textColor="@color/black"
+               android:textSize="16sp"
+               android:textStyle="bold" />
+
+           <TextView
+               android:id="@+id/txtcollection_point"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/txttype"
+               android:layout_marginStart="10dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginEnd="10dp"
+               android:layout_marginBottom="10dp"
+               android:fontFamily="@font/alegreya"
+               android:text="Collection Point"
+               android:textColor="@color/black"
+               android:textSize="16sp"
+               android:textStyle="bold" />
+
+           <TextView
+               android:id="@+id/txtday"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/txtcollection_point"
+               android:layout_marginStart="10dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginEnd="10dp"
+               android:layout_marginBottom="10dp"
+               android:fontFamily="@font/alegreya"
+               android:text="Day of the week"
+               android:textColor="@color/black"
+               android:textSize="16sp"
+               android:textStyle="bold" />
+
+           <TextView
+               android:id="@+id/txtdate"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/txtday"
+               android:layout_marginStart="10dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginEnd="10dp"
+               android:layout_marginBottom="10dp"
+               android:fontFamily="@font/alegreya"
+               android:text="Date Available"
+               android:textColor="@color/black"
+               android:textSize="16sp"
+               android:textStyle="bold" />
+           <TextView
+               android:id="@+id/txtstatus"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Status"
+               android:textSize="16sp"
+               android:layout_below="@id/txtdate"
+               android:textStyle="bold"
+               android:layout_centerInParent="true"
+               android:layout_margin="10dp"
+               android:textColor="@color/golden_brown"
+               android:fontFamily="@font/alegreya"/>
+       </RelativeLayout>
+       <TextView
+           android:id="@+id/book"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="BOOK"
+           android:textSize="16sp"
+           android:layout_below="@id/rl1"
+           android:textStyle="bold"
+           android:layout_centerInParent="true"
+           android:layout_margin="10dp"
+           android:textColor="@color/golden_brown"
+           android:fontFamily="@font/alegreya"/>
+
+   </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

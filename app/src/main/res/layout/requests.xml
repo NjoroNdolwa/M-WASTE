@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:layout_margin="7dp"
+                android:textSize="14sp"
+                android:background="@drawable/box_layout"
+                android:fontFamily="@font/alegreya"
+                android:text="Truck Name"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:layout_margin="7dp"
+                android:textSize="14sp"
+                android:background="@drawable/box_layout"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/alegreya"
+                android:text="Truck Name"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name"
+                android:padding="6dp"
+                android:layout_margin="7dp"
+                android:textSize="14sp"
+                android:background="@drawable/box_layout"
+                android:fontFamily="@font/alegreya"
+                android:text="Waste type"
+                android:textColor="@color/black"
+
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txttype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtname"
+                android:padding="6dp"
+                android:layout_margin="7dp"
+                android:textSize="14sp"
+                android:background="@drawable/box_layout"
+                android:fontFamily="@font/alegreya"
+                android:text="Waste type"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/collection_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/type"
+                android:padding="6dp"
+                android:layout_margin="7dp"
+                android:textSize="14sp"
+                android:background="@drawable/box_layout"
+                android:fontFamily="@font/alegreya"
+                android:text="Collection Point"
+                android:textColor="@color/black"
+
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtcollection_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txttype"
+                android:fontFamily="@font/alegreya"
+                android:text="Collection Point"
+                android:textColor="@color/black"
+                android:padding="6dp"
+                android:layout_margin="7dp"
+                android:textSize="14sp"
+                android:background="@drawable/box_layout"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/dayt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/collection_point"
+                android:padding="6dp"
+                android:layout_margin="7dp"
+                android:textSize="14sp"
+                android:background="@drawable/box_layout"
+                android:fontFamily="@font/alegreya"
+                android:text="Day of the week"
+                android:textColor="@color/black"
+
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtcollection_point"
+                android:padding="6dp"
+                android:layout_margin="7dp"
+                android:textSize="14sp"
+                android:background="@drawable/box_layout"
+                android:fontFamily="@font/alegreya"
+                android:text="Day of the week"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/day"
+                android:padding="6dp"
+                android:layout_margin="7dp"
+                android:textSize="14sp"
+                android:background="@drawable/box_layout"
+                android:fontFamily="@font/alegreya"
+                android:text="Date Available"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtday"
+                android:fontFamily="@font/alegreya"
+                android:text="Date Available"
+                android:textColor="@color/black"
+                android:padding="6dp"
+                android:layout_margin="7dp"
+                android:textSize="14sp"
+                android:background="@drawable/box_layout"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/day"
+                android:padding="6dp"
+                android:layout_margin="7dp"
+                android:textSize="14sp"
+                android:background="@drawable/box_layout"
+                android:fontFamily="@font/alegreya"
+                android:text="Phone Number"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:layout_margin="7dp"
+                android:textSize="14sp"
+                android:background="@drawable/box_layout"
+                android:fontFamily="@font/alegreya"
+                android:text="phone"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/day"
+                android:padding="6dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/box_layout"
+                android:fontFamily="@font/alegreya"
+                android:text="Date Available"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/id_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtday"
+                android:fontFamily="@font/alegreya"
+                android:text="Id Number"
+                android:padding="6dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/box_layout"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
